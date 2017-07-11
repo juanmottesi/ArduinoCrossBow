@@ -1,0 +1,6 @@
+{
+  "name": "arduinoCrossBow",
+  "dependencies": {
+    "ng-webcam" : "0.1.*"
+  }
+}

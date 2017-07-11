@@ -1,0 +1,29 @@
+{
+  "name": "arduinoCrossBow",
+  "version": "0.0.1",
+  "description": "arduinoCrossBow for UNQ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weberamaral/ng-webcam.git"
+  },
+  "authors":  ["Luciano Olmedo <luciano.federico.olmedo@gmail.com>",
+    "Juan Mottesi <juannpm159@gmail.com>", "Rodrigo Papadopulo
+    <rpapadopulo@gmail.com>", "Maria Ines Sosa <ines.-sosa@hotmail.com>"],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juanmottesi/ArduinoCrossBow/issues"
+  },
+  "homepage": "https://github.com/juanmottesi/ArduinoCrossBow",
+  "devDependencies": {
+    "connect": "^3.3.4",
+    "serve-static": "^1.8.0",
+    "dualshock-controller": "^1.1.1",
+    "express": "^4.15.3",
+    "johnny-five": "^0.11.1",
+    "node-gamepad": "^0.1.15",
+    "socket.io": "^2.0.2"
+  }
+}

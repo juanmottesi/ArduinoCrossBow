@@ -1,0 +1,38 @@
+{
+  "name": "arduinoCrossbow",
+  "description": "ArduinoCrossbow for UNQ.",
+  "main": "dist/ng-webcam.js",
+  "dependencies": {
+    "angular": "1.4.*",
+    "webcamjs": "^1.0.9"
+  },
+  "authors": [
+    "Luciano Olmedo <luciano.federico.olmedo@gmail.com>",
+    "Juan Mottesi <juannpm159@gmail.com>",
+    "<Rodrigo Papadopulo rpapadopulo@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angularjs",
+    "angular",
+    "camera",
+    "webcam",
+    "picture",
+    "snapshot",
+    "module",
+    "directive"
+  ],
+  "homepage": "https://github.com/juanmottesi/ArduinoCrossBow",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "app",
+    "gulp",
+    "src",
+    "codecov.yml",
+    "gulpfile.js"
+  ]
+}

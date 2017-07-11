@@ -1,3 +1,8 @@
+var connect = require('connect');
+var serveStatic = require('serve-static');
+connect().use(serveStatic(__dirname)).listen(3000);
+
+/*
 const port = 3000;
 const express = require('express');
 const arduino = require('./arduino');
@@ -16,6 +21,7 @@ function log(aString){
   console.log(aString);
 };
 
+app.use(serveStatic(__dirname));
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(req, res) {
@@ -37,4 +43,6 @@ io.on('connection', function(socket) {
   dualShock4.on('dpadLeft:press', move1);
 });
 
-log('Waiting for connection');
+*/
+
+console.log('Waiting for connection');
