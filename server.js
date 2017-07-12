@@ -31,10 +31,12 @@ io.on('connection', function(socket) {
   socket.on('shoot', arduino.shoot);
   socket.on('move', arduino.move);
   socket.on('move1', arduino.move1);
+  //socket.on('reload', arduino.reload);
 
   dualShock4.on('r2:press', shoot);
   dualShock4.on('dpadRight:press', move);
   dualShock4.on('dpadLeft:press', move1);
+  //socket.on('l2:press', arduino.reload);
 });
 
 log('Waiting for connection');

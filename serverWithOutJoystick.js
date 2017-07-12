@@ -25,6 +25,7 @@ io.on('connection', function(socket) {
   socket.on('shoot', arduino.shoot);
   socket.on('move', arduino.move);
   socket.on('move1', arduino.move1);
+  //socket.on('reload', arduino.reload);
 });
 
 log('Waiting for connection');

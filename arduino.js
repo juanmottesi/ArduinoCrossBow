@@ -3,7 +3,9 @@ var board = new five.Board();
 
 var servoTrigger;
 var servoMovement;
+var servoReload;
 var movementPosition;
+
 
 function log(aString){
   console.log(aString);
@@ -26,11 +28,22 @@ function initServoMovement(){
   servoMovement.to(movementPosition);
 };
 
+function initServoReload(){
+  servoReload = new five.Servo.Continuous(9);
+}
+
 board.on("ready", function() {
   log("Arduino Connected!")
   initServoTrigger();
   initServoMovement();
+  initServoReload();
 });
+
+exports.reload = function(){
+  servoReload.cw();
+  sleep(1500);
+  servoReload.stop();
+}
 
 exports.move1 = function(){
   log("Move 1 " + movementPosition);
